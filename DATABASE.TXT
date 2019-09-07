@@ -1,0 +1,39 @@
+create database pizza;
+use pizza
+
+
+
+1.  userregister table
+
+
+create table userregister(
+fname  varchar(100),
+address varchar(100),
+city varchar(100),
+state varchar(100),
+contact varchar(100),
+email varchar(100),
+un varchar(100),
+pw varchar(100));
+
+
+
+create table temp(
+un varchar(100),
+fn varchar(100));
+
+
+create table porder(
+fname  varchar(100),
+address varchar(100),
+city varchar(100),
+state varchar(100),
+contact varchar(100),
+email varchar(100),
+ptype varchar(100),
+pmode varchar(100),
+qty varchar(100));
+
+
+
+

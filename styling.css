@@ -1,0 +1,65 @@
+.responsive {
+  padding-top: 5%;
+  width: 20%;
+}
+
+body {
+    background-color: black;  use it if you don't want the background border
+}
+body:before {
+    content: '';
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('pizzaback.png'); // your image
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    filter: blur(2px);
+    z-index: -9;
+}
+
+.container {
+	position: absolute;
+	border-radius: 50px 20px;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translateX(-50%) translateY(-50%);
+	-webkit-transform: translateX(-50%) translateY(-50%);
+	transform: translateX(-50%) translateY(-50%);
+}
+.gradient{
+	background: linear-gradient(#e66465, #9198e5);
+	padding: 20px;
+}
+
+.borderDesign{
+  border-radius: 50px 20px;
+}
+
+input[type=text], input[type=password] {
+  border: 2px solid #ccc;
+  font-size: 16px;
+  padding: 10px 0px 10px 20px;
+  	border-radius: 50px 20px;
+
+}
+.btn {
+  margin: 5px;
+	transition: 1s;
+	padding: 10px 50px 10px 20px;
+  text-align: center;
+  background-size: 200% auto;
+	border-radius: 50px 20px;
+ }
+.btn:hover {
+  background-position: right center; /* change the direction of the change here */
+}
+.btn1 {
+  background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+}
+td {
+  text-align: center;
+  font-family: 'Ubuntu',serif;
+}
